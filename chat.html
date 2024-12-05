@@ -1,3 +1,22 @@
+<script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'pt_BR'; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00DDO0000008fn6',
+				'Chat_Bot_Powpay',
+				'https://powpaybra--qa.sandbox.my.site.com/ESWChatBotPowpay1733419153028',
+				{
+					scrt2URL: 'https://powpaybra--qa.sandbox.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://powpaybra--qa.sandbox.my.site.com/ESWChatBotPowpay1733419153028/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 <html lang="pt-BR"><head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -2230,24 +2249,6 @@ if (!window._laq) { window._laq = []; } window._laq.push(function(){liveagent.sh
 vgo("setTrackByDefault",!0);vgo("process");</script><iframe height="0" width="0" style="display: none; visibility: hidden;"></iframe><script type="text/javascript" id="" charset="">!function(d,g,e){d.TiktokAnalyticsObject=e;var a=d[e]=d[e]||[];a.methods="page track identify instances debug on off once ready alias group enableCookie disableCookie".split(" ");a.setAndDefer=function(b,c){b[c]=function(){b.push([c].concat(Array.prototype.slice.call(arguments,0)))}};for(d=0;d<a.methods.length;d++)a.setAndDefer(a,a.methods[d]);a.instance=function(b){b=a._i[b]||[];for(var c=0;c<a.methods.length;c++)a.setAndDefer(b,a.methods[c]);return b};a.load=function(b,c){var f="https://analytics.tiktok.com/i18n/pixel/events.js";
 a._i=a._i||{};a._i[b]=[];a._i[b]._u=f;a._t=a._t||{};a._t[b]=+new Date;a._o=a._o||{};a._o[b]=c||{};c=document.createElement("script");c.type="text/javascript";c.async=!0;c.src=f+"?sdkid\x3d"+b+"\x26lib\x3d"+e;b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(c,b)};a.load("CBA0SQJC77U9CRRSCLB0");a.page()}(window,document,"ttq");</script><script type="text/javascript" id="" charset="">fbq("track","PageView");</script>
 <div class="fbc-badge js-fbc-UID_1" style="z-index: 2; left: 1135px; top: 5762.05px;"><div class="fbc-badge-fence"></div><div class="fbc-badge-tooltip">Se você usar seu endereço de email real aqui, o Facebook poderá rastrear você. Clique para saber mais.</div><div class="fbc-badge-prompt"></div></div>
-<script type='text/javascript'>
-	function initEmbeddedMessaging() {
-		try {
-			embeddedservice_bootstrap.settings.language = 'pt_BR'; // For example, enter 'en' or 'en-US'
 
-			embeddedservice_bootstrap.init(
-				'00DDO0000008fn6',
-				'Chat_Bot_Powpay',
-				'https://powpaybra--qa.sandbox.my.site.com/ESWChatBotPowpay1733419153028',
-				{
-					scrt2URL: 'https://powpaybra--qa.sandbox.my.salesforce-scrt.com'
-				}
-			);
-		} catch (err) {
-			console.error('Error loading Embedded Messaging: ', err);
-		}
-	};
-</script>
-<script type='text/javascript' src='https://powpaybra--qa.sandbox.my.site.com/ESWChatBotPowpay1733419153028/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 </body></html>     
 </html>
